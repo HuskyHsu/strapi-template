@@ -4,10 +4,15 @@
   "info": {
     "singularName": "book",
     "pluralName": "books",
-    "displayName": "book"
+    "displayName": "book",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false,
+    "privateAttributes": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "pluginOptions": {},
   "attributes": {
@@ -17,8 +22,8 @@
       "unique": true
     },
     "issue_date": {
-      "required": true,
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "tags": {
       "type": "relation",
@@ -49,7 +54,8 @@
     },
     "cover_url": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     }
   }
 }
