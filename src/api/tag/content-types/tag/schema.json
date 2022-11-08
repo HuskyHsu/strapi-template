@@ -7,11 +7,7 @@
     "displayName": "Tag"
   },
   "options": {
-    "draftAndPublish": false,
-    "privateAttributes": [
-      "createdAt",
-      "updatedAt"
-    ]
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
