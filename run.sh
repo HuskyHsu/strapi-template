@@ -1,0 +1,1 @@
+flyctl deploy --config deploy/fly.toml
